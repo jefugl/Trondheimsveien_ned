@@ -1,0 +1,10 @@
+name,adresse,zip,by,lat,lon,nummer
+Renna-Rendevouz,Trondheimsveien 187,0570,Oslo,59.93549344315811,10.780295184660787,1
+Wembley Sports Bar AS,Schouterrassen 25,0573,Oslo,59.93161304636234,10.783032708257378,2
+Wings Bar,Olaf Schous vei 2,0572,Oslo,59.92978865415876,10.780314633800728,3
+Valentino,Trondheimsveien 139a,0570,Oslo,59.92937470874547,10.778352966983343,4
+Sverres kafe,Carl Berners Plass 2,0568,Oslo,59.92658843859827,10.776150659009847,5
+Perla,Helgesens gate 66,0558,Oslo,59.92262832492968,10.769320899862388,6
+Pane & Vino,Trondheimsveien 37,0560,Oslo,59.921071303607526,10.770385044083538,7
+Ocean Cafe & Bar,Trondheimsveien 20A,0560,Oslo,59.92006288485663,10.766156071292523,8
+Schouskjelleren Mikrobryggeri,Trondheimsveien 2,0560,Oslo,59.91850221707881, 10.760228810326705, 9

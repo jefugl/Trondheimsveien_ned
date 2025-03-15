@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d0b67266ff6d8cf84afb77e4e43a6de6 {
+                    position: relative;
+                    width: 650.0px;
+                    height: 550.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d0b67266ff6d8cf84afb77e4e43a6de6" ></div>
+        
+</body>
+<script>    
+    
+            var map_d0b67266ff6d8cf84afb77e4e43a6de6 = L.map(
+                "map_d0b67266ff6d8cf84afb77e4e43a6de6",
+                {
+                    center: [59.928, 10.782],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3f8fd9cf02a65c6f7a665c279d15c86c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 10, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+        
+    
+            var feature_group_dc932a4bf46118e60230880e53d51c1c = L.featureGroup(
+                {}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+        
+    
+            var marker_3ab6521219889b55ee8dd80a00f275d2 = L.marker(
+                [59.93549344315811, 10.780295184660789],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_715e21238d6a45427332be6e80a54897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3ab6521219889b55ee8dd80a00f275d2.setIcon(icon_715e21238d6a45427332be6e80a54897);
+        
+    
+        var popup_8b58aa8727e81f7f033a10086fe08de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a227a8a51f49544e2e4467c03bd291b = $(`<div id="html_9a227a8a51f49544e2e4467c03bd291b" style="width: 100.0%; height: 100.0%;">Gamle Renna-Rendevouz Trondheimsveien 187</div>`)[0];
+                popup_8b58aa8727e81f7f033a10086fe08de2.setContent(html_9a227a8a51f49544e2e4467c03bd291b);
+            
+        
+
+        marker_3ab6521219889b55ee8dd80a00f275d2.bindPopup(popup_8b58aa8727e81f7f033a10086fe08de2)
+        ;
+
+        
+    
+    
+            var marker_1606bbe18a8f04c1e772eb93e597df07 = L.marker(
+                [59.93161304636234, 10.783032708257378],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_eb934ce43e00d393c0a3f88db3ee2b2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1606bbe18a8f04c1e772eb93e597df07.setIcon(icon_eb934ce43e00d393c0a3f88db3ee2b2c);
+        
+    
+        var popup_68f146e19ec1b6fb85094b2899b175fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2539f741b647ec9945c8e65646808107 = $(`<div id="html_2539f741b647ec9945c8e65646808107" style="width: 100.0%; height: 100.0%;">Wembley Sports Bar AS Schouterrassen 25</div>`)[0];
+                popup_68f146e19ec1b6fb85094b2899b175fd.setContent(html_2539f741b647ec9945c8e65646808107);
+            
+        
+
+        marker_1606bbe18a8f04c1e772eb93e597df07.bindPopup(popup_68f146e19ec1b6fb85094b2899b175fd)
+        ;
+
+        
+    
+    
+            var marker_0f5f65f36d6ad13b7adee3ed112fff72 = L.marker(
+                [59.92978865415876, 10.780314633800728],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_686d98c2258b0756b90036b0cd1f630d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0f5f65f36d6ad13b7adee3ed112fff72.setIcon(icon_686d98c2258b0756b90036b0cd1f630d);
+        
+    
+        var popup_a8d214846e7614e3a3e5cfa5d63cf0c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b61c511cb6a59f4af8f0850dc3c809c = $(`<div id="html_8b61c511cb6a59f4af8f0850dc3c809c" style="width: 100.0%; height: 100.0%;">Wings Bar Olaf Schous vei 2</div>`)[0];
+                popup_a8d214846e7614e3a3e5cfa5d63cf0c1.setContent(html_8b61c511cb6a59f4af8f0850dc3c809c);
+            
+        
+
+        marker_0f5f65f36d6ad13b7adee3ed112fff72.bindPopup(popup_a8d214846e7614e3a3e5cfa5d63cf0c1)
+        ;
+
+        
+    
+    
+            var marker_6fdbbfd73e6e866f9de3d0ff6ef0944a = L.marker(
+                [59.92937470874547, 10.778352966983345],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_1d4ef654cdc28bfbf9461740e1f04677 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6fdbbfd73e6e866f9de3d0ff6ef0944a.setIcon(icon_1d4ef654cdc28bfbf9461740e1f04677);
+        
+    
+        var popup_c0e9b2f2b58a3bb96effdc344598f54e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_505e7e720c4567b9ae1be0b295edae27 = $(`<div id="html_505e7e720c4567b9ae1be0b295edae27" style="width: 100.0%; height: 100.0%;">Valentino Trondheimsveien 139a</div>`)[0];
+                popup_c0e9b2f2b58a3bb96effdc344598f54e.setContent(html_505e7e720c4567b9ae1be0b295edae27);
+            
+        
+
+        marker_6fdbbfd73e6e866f9de3d0ff6ef0944a.bindPopup(popup_c0e9b2f2b58a3bb96effdc344598f54e)
+        ;
+
+        
+    
+    
+            var marker_0be0692e7e59d9aec46012c93ce087c2 = L.marker(
+                [59.92658843859827, 10.776150659009849],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_f89ea3958a5b152983d5e2ceabf5966d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0be0692e7e59d9aec46012c93ce087c2.setIcon(icon_f89ea3958a5b152983d5e2ceabf5966d);
+        
+    
+        var popup_e81038d0c8aca7a61f38890e1379565c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afb5cab937e6ade2647df372ec30052e = $(`<div id="html_afb5cab937e6ade2647df372ec30052e" style="width: 100.0%; height: 100.0%;">Sverres kafe Carl Berners Plass 2</div>`)[0];
+                popup_e81038d0c8aca7a61f38890e1379565c.setContent(html_afb5cab937e6ade2647df372ec30052e);
+            
+        
+
+        marker_0be0692e7e59d9aec46012c93ce087c2.bindPopup(popup_e81038d0c8aca7a61f38890e1379565c)
+        ;
+
+        
+    
+    
+            var marker_7e00f65e53b4b18c5b44a3c6b3e01748 = L.marker(
+                [59.92262832492968, 10.769320899862388],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_5f6182e222ae88c120aaab30d4319639 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7e00f65e53b4b18c5b44a3c6b3e01748.setIcon(icon_5f6182e222ae88c120aaab30d4319639);
+        
+    
+        var popup_ddd5ac4f4739a3a18b857001a5344a6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d7f933dd7d5b635d450164690ee000d = $(`<div id="html_7d7f933dd7d5b635d450164690ee000d" style="width: 100.0%; height: 100.0%;">Perla Helgesens gate 66</div>`)[0];
+                popup_ddd5ac4f4739a3a18b857001a5344a6d.setContent(html_7d7f933dd7d5b635d450164690ee000d);
+            
+        
+
+        marker_7e00f65e53b4b18c5b44a3c6b3e01748.bindPopup(popup_ddd5ac4f4739a3a18b857001a5344a6d)
+        ;
+
+        
+    
+    
+            var marker_5caac5adf4fd18b1253afe8379110092 = L.marker(
+                [59.921071303607526, 10.770385044083538],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_ecddf99c0b6cfb530aba6ef49fade533 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5caac5adf4fd18b1253afe8379110092.setIcon(icon_ecddf99c0b6cfb530aba6ef49fade533);
+        
+    
+        var popup_07019a70b43a296dae10b0dda8ebbb62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eae25753801ae3ad8cbc539afb21df0 = $(`<div id="html_3eae25753801ae3ad8cbc539afb21df0" style="width: 100.0%; height: 100.0%;">Pane & Vino Trondheimsveien 37</div>`)[0];
+                popup_07019a70b43a296dae10b0dda8ebbb62.setContent(html_3eae25753801ae3ad8cbc539afb21df0);
+            
+        
+
+        marker_5caac5adf4fd18b1253afe8379110092.bindPopup(popup_07019a70b43a296dae10b0dda8ebbb62)
+        ;
+
+        
+    
+    
+            var marker_ee2c4d003c29c6cac29dca076036e13f = L.marker(
+                [59.92006288485663, 10.766156071292524],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_adf0f7db4fc32025e68a90a28041fc71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ee2c4d003c29c6cac29dca076036e13f.setIcon(icon_adf0f7db4fc32025e68a90a28041fc71);
+        
+    
+        var popup_196f1312fb53353f5ea788249dece2af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a5b512ec31e88698a698b054cf2865b = $(`<div id="html_4a5b512ec31e88698a698b054cf2865b" style="width: 100.0%; height: 100.0%;">Ocean Cafe & Bar Trondheimsveien 20A</div>`)[0];
+                popup_196f1312fb53353f5ea788249dece2af.setContent(html_4a5b512ec31e88698a698b054cf2865b);
+            
+        
+
+        marker_ee2c4d003c29c6cac29dca076036e13f.bindPopup(popup_196f1312fb53353f5ea788249dece2af)
+        ;
+
+        
+    
+    
+            var marker_b78a7d49b71ab6a45ea6ce8c07952fef = L.marker(
+                [59.91981192311756, 10.765398236839507],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_853248d95069173fff93f1dfddebac5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b78a7d49b71ab6a45ea6ce8c07952fef.setIcon(icon_853248d95069173fff93f1dfddebac5c);
+        
+    
+        var popup_7a9075b2d631307227650f67baa46a19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d698f126e4f9d3acdcc4300ecc5c4b1 = $(`<div id="html_7d698f126e4f9d3acdcc4300ecc5c4b1" style="width: 100.0%; height: 100.0%;">Konoji Trondheimsveien 16A</div>`)[0];
+                popup_7a9075b2d631307227650f67baa46a19.setContent(html_7d698f126e4f9d3acdcc4300ecc5c4b1);
+            
+        
+
+        marker_b78a7d49b71ab6a45ea6ce8c07952fef.bindPopup(popup_7a9075b2d631307227650f67baa46a19)
+        ;
+
+        
+    
+    
+            var marker_dcfbc872caaa50f0213456d8d7a310ba = L.marker(
+                [59.92133801250651, 10.76378332726872],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_17c73a765c0bf678d78fffc503d9b7e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dcfbc872caaa50f0213456d8d7a310ba.setIcon(icon_17c73a765c0bf678d78fffc503d9b7e6);
+        
+    
+        var popup_fcd0eee644bcf846ae5ca69501fcdaa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b79f1d3c28213feebb1a66b0b7bcb542 = $(`<div id="html_b79f1d3c28213feebb1a66b0b7bcb542" style="width: 100.0%; height: 100.0%;">Apostrophe Kirkegårdsgata 7A</div>`)[0];
+                popup_fcd0eee644bcf846ae5ca69501fcdaa4.setContent(html_b79f1d3c28213feebb1a66b0b7bcb542);
+            
+        
+
+        marker_dcfbc872caaa50f0213456d8d7a310ba.bindPopup(popup_fcd0eee644bcf846ae5ca69501fcdaa4)
+        ;
+
+        
+    
+    
+            var marker_05718f5b7470e98520a9b2394aebb868 = L.marker(
+                [59.92027353307381, 10.759490167403698],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_7f93777599f81d15f2376178ed0c5bf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_05718f5b7470e98520a9b2394aebb868.setIcon(icon_7f93777599f81d15f2376178ed0c5bf9);
+        
+    
+        var popup_7d426607e7ff5d354592dcb4b627a2fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1730bad5ef54b7e218f00296524dbdc1 = $(`<div id="html_1730bad5ef54b7e218f00296524dbdc1" style="width: 100.0%; height: 100.0%;">Glød Thorvald Meyers gate 70A</div>`)[0];
+                popup_7d426607e7ff5d354592dcb4b627a2fa.setContent(html_1730bad5ef54b7e218f00296524dbdc1);
+            
+        
+
+        marker_05718f5b7470e98520a9b2394aebb868.bindPopup(popup_7d426607e7ff5d354592dcb4b627a2fa)
+        ;
+
+        
+    
+    
+            var marker_e7447d6221dbac33c7df47956c0f078e = L.marker(
+                [59.92023836127362, 10.759199986385662],
+                {}
+            ).addTo(feature_group_dc932a4bf46118e60230880e53d51c1c);
+        
+    
+            var icon_5cf0a1a282ff90c61d40d5d95ca930e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e7447d6221dbac33c7df47956c0f078e.setIcon(icon_5cf0a1a282ff90c61d40d5d95ca930e2);
+        
+    
+        var popup_0812077fd4fb0240174e6bbc413dd012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f4f313ee8427e5ce5010455f9460616 = $(`<div id="html_4f4f313ee8427e5ce5010455f9460616" style="width: 100.0%; height: 100.0%;">Rabalder Bar Thorvald Meyers gate 81</div>`)[0];
+                popup_0812077fd4fb0240174e6bbc413dd012.setContent(html_4f4f313ee8427e5ce5010455f9460616);
+            
+        
+
+        marker_e7447d6221dbac33c7df47956c0f078e.bindPopup(popup_0812077fd4fb0240174e6bbc413dd012)
+        ;
+
+        
+    
+    
+            var tile_layer_5e1c74c06bb72f586e214bfc4a1092a7 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+        
+    
+            var tile_layer_deb8b2ae328954ce1b7cca056fbdf11c = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+        
+    
+            var tile_layer_fdafd422289278397deed05d3dad05cc = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+        
+    
+            var tile_layer_61c75cc92f215f812c46b89e6f3bcfcd = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+        
+    
+            var tile_layer_eb8511dc8cbaf9c4afd7a64450335b7d = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+        
+    
+            var layer_control_21466aa12b6565d9cceb18ff5020793a = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3f8fd9cf02a65c6f7a665c279d15c86c,
+                    "stamenterrain" : tile_layer_5e1c74c06bb72f586e214bfc4a1092a7,
+                    "stamentoner" : tile_layer_deb8b2ae328954ce1b7cca056fbdf11c,
+                    "stamenwatercolor" : tile_layer_fdafd422289278397deed05d3dad05cc,
+                    "cartodbpositron" : tile_layer_61c75cc92f215f812c46b89e6f3bcfcd,
+                    "cartodbdark_matter" : tile_layer_eb8511dc8cbaf9c4afd7a64450335b7d,
+                },
+                overlays :  {
+                    "My Map" : feature_group_dc932a4bf46118e60230880e53d51c1c,
+                },
+            };
+            L.control.layers(
+                layer_control_21466aa12b6565d9cceb18ff5020793a.base_layers,
+                layer_control_21466aa12b6565d9cceb18ff5020793a.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_d0b67266ff6d8cf84afb77e4e43a6de6);
+            tile_layer_5e1c74c06bb72f586e214bfc4a1092a7.remove();
+            tile_layer_deb8b2ae328954ce1b7cca056fbdf11c.remove();
+            tile_layer_fdafd422289278397deed05d3dad05cc.remove();
+            tile_layer_61c75cc92f215f812c46b89e6f3bcfcd.remove();
+            tile_layer_eb8511dc8cbaf9c4afd7a64450335b7d.remove();
+        
+</script>
