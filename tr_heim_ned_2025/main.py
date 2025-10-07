@@ -19,7 +19,7 @@ def main():
                 inputdata.perla, inputdata.pane_vino, inputdata.ocean, inputdata.schous]
     })
 
-    m = folium.Map(location=start, width=650, height=550, zoom_start=13, min_zoom=10, max_zoom=18)
+    m = folium.Map(location=start, width=650, height=550, zoom_start=15, min_zoom=10, max_zoom=18)
 
     for i in range(0, len(data)):
         folium.Marker(
