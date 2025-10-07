@@ -7,7 +7,7 @@ import webbrowser
 
 def main():
 
-    start = 59.928, 10.782111
+    start = 59.9281, 10.782111
 
     data = pd.DataFrame({
         'nr': inputdata.nr,
