@@ -7,7 +7,7 @@ import webbrowser
 
 def main():
 
-    start = 59.9281, 10.782111
+    start = 59.9282, 10.7821
 
     data = pd.DataFrame({
         'nr': inputdata.nr,
@@ -19,7 +19,7 @@ def main():
                 inputdata.perla, inputdata.pane_vino, inputdata.ocean, inputdata.schous]
     })
 
-    m = folium.Map(location=start, width=650, height=550, zoom_start=15, min_zoom=10, max_zoom=18)
+    m = folium.Map(location=start, width=650, height=550, zoom_start=14, min_zoom=10, max_zoom=18)
 
     for i in range(0, len(data)):
         folium.Marker(
