@@ -11,15 +11,15 @@ pubaddress = ['Trondheimsveien 187,0570 Oslo', 'Schouterrassen 25,0573 Oslo', 'O
               'Trondheimsveien 139a,0570 Oslo', 'Oslo', 'Helgesens gate 66,0558 Oslo',
               'Trondheimsveien 37,0560 Oslo', 'Trondheimsveien 20A,0560 Oslo', 'Trondheimsveien 2,0560,Oslo']
 
-renna = "IMG_0481.jpg"
-wembley = "IMG_0483.jpg"
-buen = "IMG_0484.jpg"
-valentino = "IMG_0485.jpg"
-bella_notte = "IMG_0486.jpg"
-perla = "IMG_0487.jpg"
-pane_vino = "IMG_0488.jpg"
-ocean = "IMG_0489.jpg"
-schous = "IMG_0490.jpg"
+renna = "../bilder/renna.jpg"
+wembley = "../bilder/wembley.jpg"
+buen = "../bilder/buen.jpg"
+valentino = "../bilder/valentino.jpg"
+bella_notte = "../bilder/bella.jpg"
+perla = "../bilder/perla.jpg"
+pane_vino = "../bilder/pane_vino.jpg"
+ocean = "../bilder/ocean.jpg"
+schous = "../bilder/schous.jpg"
 
 
 pubimages = [renna, wembley, buen, valentino, bella_notte, perla, pane_vino, ocean, schous]

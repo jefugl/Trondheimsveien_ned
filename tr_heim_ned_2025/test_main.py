@@ -6,7 +6,7 @@ def main():
 
     # HTML direkte i popup (uten IFrame)
     html = """
-    <img src='IMG_0481.jpg' width='150' height='113'><br>
+    <img src='renna.jpg' width='150' height='113'><br>
     <strong>Renna Pub</strong><br>
     Trondheimsveien 100
     """
