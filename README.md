@@ -14,7 +14,6 @@ Et interaktivt folium-kart over puber langs Trondheimsveien i Oslo, med popup-bi
   # Ferdig kart (generert) ├── bilder/
   # JPG-bilder brukt i popupene │   ├── renna.jpg │   ├── wembley.jpg │   └── ...
 
-🧠 Funksjoner
 • 	Popup med bilde og adresse for hver pub
 • 	Automatisk fallback hvis bilde mangler
 • 	Mobilvennlig visning via GitHub Pages
@@ -24,6 +23,5 @@ Et interaktivt folium-kart over puber langs Trondheimsveien i Oslo, med popup-bi
 • 	Kategorier eller fargekoder for pubtyper
 • 	GitHub Pages med kartlag og filter
 
-📬 Kontakt
 Prosjektet er laget av Jan i Oslo.
 For spørsmål, forslag eller pubtips: GitHub-profil
