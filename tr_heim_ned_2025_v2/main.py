@@ -8,7 +8,6 @@ import webbrowser
 def main():
 
     start = 59.9282, 10.7821
-
     data = pd.DataFrame({
         'nr': inputdata.nr,
         "lat": inputdata.latitude,
@@ -31,9 +30,10 @@ def main():
 
     tooltip = "Klikk på meg"
 
+
     for i in range(0, len(data)):
         html = f"""<div>
-                <!--<img src={data.iloc[i]["img"]}>-->
+                <img src="{data.iloc[i]['img']}"width='150' height=113>
                 <br /><span>{data.iloc[i]["name"]}</span>
                 <br /><span>{data.iloc[i]["addr"]}</span>
                 </div>"""
@@ -46,7 +46,7 @@ def main():
             # tooltip=tooltip,
         ).add_to(m)
 
-    title = "Trondheimsveien ned tr_heim_ned_2025"
+    title = "Trondheimsveien ned tr_heim_ned_2025_v2"
     title_html = """
                      <h3 align="center" style="width:40%;"font-size:22px"><b>{}</b></h3>
                      """.format(title)
