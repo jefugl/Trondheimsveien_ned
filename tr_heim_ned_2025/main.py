@@ -15,7 +15,7 @@ def main():
         "img": inputdata.pubimages
     })
 
-    m = folium.Map(location=start, width=650, height=850, zoom_start=14, in_zoom=10, max_zoom=18)
+    m = folium.Map(location=start, width=650, height=550, zoom_start=14, in_zoom=10, max_zoom=18)
 
     for i in range(len(data)):
         img_path = data.iloc[i]["img"]
