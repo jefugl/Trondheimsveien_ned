@@ -2,7 +2,7 @@
 
 Et interaktivt folium-kart over puber langs Trondheimsveien i Oslo, med popup-bilder og adresser.
 
-🗺️ **Se kartet live**:  
+🗺️ **Se siste versjon av kartet live**:  
 [https://jefugl.github.io/Trondheimsveien_ned/tr_heim_ned_2025/]
 
 ---
