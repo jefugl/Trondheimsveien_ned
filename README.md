@@ -12,7 +12,7 @@ Et interaktivt folium-kart over puber langs Trondheimsveien i Oslo, med popup-bi
   # Genererer index.html med folium ├── inputdata.py
   # Pubdata og bildebaner ├── index.html
   # Ferdig kart (generert) ├── bilder/
-  # JPG-bilder brukt i popupene │   ├── IMG_0481.jpg │   ├── IMG_0483.jpg │   └── ...
+  # JPG-bilder brukt i popupene │   ├── renna.jpg │   ├── wembley.jpg │   └── ...
 
 🧠 Funksjoner
 • 	Popup med bilde og adresse for hver pub
