@@ -1,7 +1,7 @@
 name: Mine workflow
 on: [push, workflow_dispatch]
 jobs:
-  Jan_sier:
+  Jan-har-endret:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
