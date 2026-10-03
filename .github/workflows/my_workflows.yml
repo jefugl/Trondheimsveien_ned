@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: 'echo "Hei fra GitHub Actions! Branch: $GITHUB_REF_NAME"'
       - run: test -f index.html && echo "index.html finnes"
       - run: ls -R
