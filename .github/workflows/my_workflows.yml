@@ -1,0 +1,9 @@
+name: Mine workflow
+on: [push, workflow_dispatch]
+jobs:
+  Jan-har-endret:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: test -f tr_heim_ned_2026/index.html && echo "index.html finnes"
+      - run: ls -R
