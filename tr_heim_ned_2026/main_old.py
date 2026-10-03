@@ -1,9 +1,10 @@
 import inputdata_26_old
 import folium
 import pandas as pd
+import os
 from pathlib import Path
 
-# Mappen der main.py ligger, uansett hvor skriptet kjøres fra
+
 MAPPE = Path(__file__).parent
 
 
@@ -23,10 +24,7 @@ def main():
 
     for i in range(len(data)):
         img_path = data.iloc[i]["img"]
-
-        # Sjekk at bildet finnes, sett i forhold til mappen til main.py
         if (MAPPE / img_path).exists():
-            # src beholdes relativ, fordi nettleseren leser den ut fra der index.html ligger
             img_html = f"<img src='{img_path}' width='150' height='113'>"
         else:
             img_html = "<div style='color:red;'>Bilde mangler</div>"
@@ -47,9 +45,7 @@ def main():
             icon=folium.Icon(icon="beer", prefix="fa", color="blue")
         ).add_to(m)
 
-    # Lagres alltid i samme mappe som main.py (tr_heim_ned_2026)
     m.save(str(MAPPE / "index.html"))
-
 
 if __name__ == "__main__":
     main()
