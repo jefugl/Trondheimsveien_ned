@@ -1,4 +1,4 @@
-import inputdata
+import inputdata_26
 import folium
 import pandas as pd
 import os
@@ -7,12 +7,12 @@ def main():
     start = [59.9282, 10.7821]
 
     data = pd.DataFrame({
-        "nr": inputdata.nr,
-        "lat": inputdata.latitude,
-        "lon": inputdata.longitude,
-        "name": inputdata.pubname,
-        "addr": inputdata.pubaddress,
-        "img": inputdata.pubimages
+        "nr": inputdata_26.nr,
+        "lat": inputdata_26.latitude,
+        "lon": inputdata_26.longitude,
+        "name": inputdata_26.pubname,
+        "addr": inputdata_26.pubaddress,
+        "img": inputdata_26.pubimages
     })
 
     m = folium.Map(location=start, width=650, height=550, zoom_start=14, in_zoom=10, max_zoom=18)

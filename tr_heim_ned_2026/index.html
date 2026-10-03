@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_56d2243d2d84199d54a538880cb2b84c {
+                    position: relative;
+                    width: 650.0px;
+                    height: 550.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_56d2243d2d84199d54a538880cb2b84c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_56d2243d2d84199d54a538880cb2b84c = L.map(
+                "map_56d2243d2d84199d54a538880cb2b84c",
+                {
+                    center: [59.9282, 10.7821],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "inZoom": 10,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4fdcd703dff171ee46b22c906cb114b8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4fdcd703dff171ee46b22c906cb114b8.addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var marker_e4a621450d472d4c8483665c86f0c6f5 = L.marker(
+                [59.93549344315811, 10.780295184660787],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_c8a7f7ae2da2057d5e2149955755ef30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_763730a9413e6d5fc13b788dedeb2586 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_92752180bcc83fab888760fa927ec981 = $(`<div id="html_92752180bcc83fab888760fa927ec981" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/renna.jpg' width='150' height='113'><br>             <strong>1. Renna-Rendevouz</strong><br>             Trondheimsveien 187,0570 Oslo         </div>         </div>`)[0];
+                popup_763730a9413e6d5fc13b788dedeb2586.setContent(html_92752180bcc83fab888760fa927ec981);
+            
+        
+
+        marker_e4a621450d472d4c8483665c86f0c6f5.bindPopup(popup_763730a9413e6d5fc13b788dedeb2586)
+        ;
+
+        
+    
+    
+                marker_e4a621450d472d4c8483665c86f0c6f5.setIcon(icon_c8a7f7ae2da2057d5e2149955755ef30);
+            
+    
+            var marker_8a4c1958547f59d888a0a9585e4fddd7 = L.marker(
+                [59.93161304636234, 10.783032708257378],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_69fed8d9df69229a21a58557f64c6776 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6bef9b22e0e585f16d9480316bb108d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_73c5d80bb0580bd4ee9509d29b78a5ac = $(`<div id="html_73c5d80bb0580bd4ee9509d29b78a5ac" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/wembley.jpg' width='150' height='113'><br>             <strong>2. Wembley Sports Bar</strong><br>             Schouterrassen 25,0573 Oslo         </div>         </div>`)[0];
+                popup_f6bef9b22e0e585f16d9480316bb108d.setContent(html_73c5d80bb0580bd4ee9509d29b78a5ac);
+            
+        
+
+        marker_8a4c1958547f59d888a0a9585e4fddd7.bindPopup(popup_f6bef9b22e0e585f16d9480316bb108d)
+        ;
+
+        
+    
+    
+                marker_8a4c1958547f59d888a0a9585e4fddd7.setIcon(icon_69fed8d9df69229a21a58557f64c6776);
+            
+    
+            var marker_ac229dbee96c7748ff6405c2d7463e4d = L.marker(
+                [59.92978865415876, 10.780314633800728],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_2239601e840a44610acfb74fde9752e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b92f8ca0179a5252cf022178f8de3d6b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_12a59474f880b9fb6641acc088aa170a = $(`<div id="html_12a59474f880b9fb6641acc088aa170a" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/buen.jpg' width='150' height='113'><br>             <strong>3. Buen Bar</strong><br>             Olaf Schous vei 2,0572 Oslo         </div>         </div>`)[0];
+                popup_b92f8ca0179a5252cf022178f8de3d6b.setContent(html_12a59474f880b9fb6641acc088aa170a);
+            
+        
+
+        marker_ac229dbee96c7748ff6405c2d7463e4d.bindPopup(popup_b92f8ca0179a5252cf022178f8de3d6b)
+        ;
+
+        
+    
+    
+                marker_ac229dbee96c7748ff6405c2d7463e4d.setIcon(icon_2239601e840a44610acfb74fde9752e7);
+            
+    
+            var marker_37dee9b9572ae859bc445d311e7cb848 = L.marker(
+                [59.92937470874547, 10.778352966983343],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_b7689e3802e3504d100de57eca7eda9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_deacf1f5a284ac6a3d314baf126a6103 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dbdb99f468a488fd619ecf2766f4953f = $(`<div id="html_dbdb99f468a488fd619ecf2766f4953f" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/valentino.jpg' width='150' height='113'><br>             <strong>4. Valentino</strong><br>             Trondheimsveien 139a,0570 Oslo         </div>         </div>`)[0];
+                popup_deacf1f5a284ac6a3d314baf126a6103.setContent(html_dbdb99f468a488fd619ecf2766f4953f);
+            
+        
+
+        marker_37dee9b9572ae859bc445d311e7cb848.bindPopup(popup_deacf1f5a284ac6a3d314baf126a6103)
+        ;
+
+        
+    
+    
+                marker_37dee9b9572ae859bc445d311e7cb848.setIcon(icon_b7689e3802e3504d100de57eca7eda9c);
+            
+    
+            var marker_24eacd6fb7be49deb14a68284931f882 = L.marker(
+                [59.92670785009875, 10.77589625534425],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_2e3a88824d71a25e3655e161ed007310 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_369f501064a7b941047eb6adf64fc6a0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fa808502148a8262592a58ed68e7bd39 = $(`<div id="html_fa808502148a8262592a58ed68e7bd39" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/bella.jpg' width='150' height='113'><br>             <strong>5. Bella Notte</strong><br>             Oslo         </div>         </div>`)[0];
+                popup_369f501064a7b941047eb6adf64fc6a0.setContent(html_fa808502148a8262592a58ed68e7bd39);
+            
+        
+
+        marker_24eacd6fb7be49deb14a68284931f882.bindPopup(popup_369f501064a7b941047eb6adf64fc6a0)
+        ;
+
+        
+    
+    
+                marker_24eacd6fb7be49deb14a68284931f882.setIcon(icon_2e3a88824d71a25e3655e161ed007310);
+            
+    
+            var marker_c06f74902c650cf20fdf5bcf75a14511 = L.marker(
+                [59.92262832492968, 10.769320899862388],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_1bb47376a97c390dce4f3ed8a769f3e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ae705577cbd9d83697d6c3bf3f5d3c2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_aa94cf253e338e6b804ed781fbd10766 = $(`<div id="html_aa94cf253e338e6b804ed781fbd10766" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/perla.jpg' width='150' height='113'><br>             <strong>6. Perla</strong><br>             Helgesens gate 66,0558 Oslo         </div>         </div>`)[0];
+                popup_0ae705577cbd9d83697d6c3bf3f5d3c2.setContent(html_aa94cf253e338e6b804ed781fbd10766);
+            
+        
+
+        marker_c06f74902c650cf20fdf5bcf75a14511.bindPopup(popup_0ae705577cbd9d83697d6c3bf3f5d3c2)
+        ;
+
+        
+    
+    
+                marker_c06f74902c650cf20fdf5bcf75a14511.setIcon(icon_1bb47376a97c390dce4f3ed8a769f3e8);
+            
+    
+            var marker_b7826b66c9d4764e1d2d099d9763fd4a = L.marker(
+                [59.921071303607526, 10.770385044083538],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_bfbda8a092fffb2dab45292a3e4e10b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bff7d23c731592af836823b18dbaed9c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_736c5fb2048f0f6fb919341acb8f50ab = $(`<div id="html_736c5fb2048f0f6fb919341acb8f50ab" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/pane_vino.jpg' width='150' height='113'><br>             <strong>7. Pane & Vino</strong><br>             Trondheimsveien 37,0560 Oslo         </div>         </div>`)[0];
+                popup_bff7d23c731592af836823b18dbaed9c.setContent(html_736c5fb2048f0f6fb919341acb8f50ab);
+            
+        
+
+        marker_b7826b66c9d4764e1d2d099d9763fd4a.bindPopup(popup_bff7d23c731592af836823b18dbaed9c)
+        ;
+
+        
+    
+    
+                marker_b7826b66c9d4764e1d2d099d9763fd4a.setIcon(icon_bfbda8a092fffb2dab45292a3e4e10b3);
+            
+    
+            var marker_e5fbd6d655c09788c684b63cd43b279c = L.marker(
+                [59.92006288485663, 10.766156071292523],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_d5876807102705c7bfaf5f6fea19fff4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10bbde852b2d21a6ec7e70663cdd141b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3899737800628229c33a40de6cf59be4 = $(`<div id="html_3899737800628229c33a40de6cf59be4" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/ocean.jpg' width='150' height='113'><br>             <strong>8. Ocean</strong><br>             Trondheimsveien 20A,0560 Oslo         </div>         </div>`)[0];
+                popup_10bbde852b2d21a6ec7e70663cdd141b.setContent(html_3899737800628229c33a40de6cf59be4);
+            
+        
+
+        marker_e5fbd6d655c09788c684b63cd43b279c.bindPopup(popup_10bbde852b2d21a6ec7e70663cdd141b)
+        ;
+
+        
+    
+    
+                marker_e5fbd6d655c09788c684b63cd43b279c.setIcon(icon_d5876807102705c7bfaf5f6fea19fff4);
+            
+    
+            var marker_8b48bb210142a61bb67e21ba88f67d11 = L.marker(
+                [59.91850221707881, 10.760228810326705],
+                {
+}
+            ).addTo(map_56d2243d2d84199d54a538880cb2b84c);
+        
+    
+            var icon_f6b634f6499df69e556a44ec122beb94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "beer",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8def06f2605d9278fbfc7ab0538cf15 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5d4df31e886060d3fc3188d5516bb8bd = $(`<div id="html_5d4df31e886060d3fc3188d5516bb8bd" style="width: 100.0%; height: 100.0%;">         <div>             <img src='../bilder/schous.jpg' width='150' height='113'><br>             <strong>9. Schouskjelleren Mikrobryggeri</strong><br>             Trondheimsveien 2,0560,Oslo         </div>         </div>`)[0];
+                popup_a8def06f2605d9278fbfc7ab0538cf15.setContent(html_5d4df31e886060d3fc3188d5516bb8bd);
+            
+        
+
+        marker_8b48bb210142a61bb67e21ba88f67d11.bindPopup(popup_a8def06f2605d9278fbfc7ab0538cf15)
+        ;
+
+        
+    
+    
+                marker_8b48bb210142a61bb67e21ba88f67d11.setIcon(icon_f6b634f6499df69e556a44ec122beb94);
+            
+</script>
+</html>
