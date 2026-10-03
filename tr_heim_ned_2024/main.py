@@ -1,4 +1,4 @@
-import inputdata
+import inputdata_24
 import folium
 from folium.features import DivIcon
 import pandas as pd
