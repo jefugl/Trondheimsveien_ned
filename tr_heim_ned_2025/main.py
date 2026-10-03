@@ -1,4 +1,4 @@
-import inputdata
+import inputdata_25
 import folium
 import pandas as pd
 import os
