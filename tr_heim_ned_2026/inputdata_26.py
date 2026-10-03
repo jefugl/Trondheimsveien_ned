@@ -12,7 +12,7 @@ pubaddress = ['Trondheimsveien 187, 0570 Oslo',
               'Schouterrassen 25, 0573 Oslo',
               'Olaf Schous vei 2, 0572 Oslo',
               'Trondheimsveien 139a, 0570 Oslo',
-              'Oslo',  # TODO: legg inn full adresse for Bella Notte
+              'Carl Berners plass 2, 0568 Oslo'
               'Helgesens gate 66, 0558 Oslo',
               'Trondheimsveien 37, 0560 Oslo',
               'Trondheimsveien 20A, 0560 Oslo',
